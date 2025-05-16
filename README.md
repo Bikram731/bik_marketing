@@ -129,8 +129,6 @@ The project will follow these steps:
 
 **By days of week**: It's quite obvious that we sold more items on weekends, especially Saturday, with 20% more than average. Wednesday has lowest sales quantity with 30% less than average.
 
-**By hours of day**: Most items were ordered from 9AM-2PM, with proportion of 78% of total sales quantity. 
-
 ### Market Basket Analysis
 
 - There are 15 association rules found with min_support=0.01 and min_lift=1.2.

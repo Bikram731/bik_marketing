@@ -103,13 +103,9 @@ The project will follow these steps:
 
 ### 1. Associations Rules Results
 
-![image](https://github.com/mytrannn22/Market-basket-analysis-Bread-Basket/assets/140190425/050f9099-aa56-4f9b-bd70-abbcd4391d94)
+![image](https://github.com/mytrannn22/Market-basket-analysis-Bread-Basket/assets/140190425/050f9099-aa56-4f9b-bd70-abbcd4391d94).
 
-### 2. Parallel coordinates plot
-
-![image](https://github.com/mytrannn22/Market-basket-analysis-Bread-Basket/assets/140190425/67707939-94e2-4846-adef-658f04264545)
-
-### 3. Itemsets Lift
+### 2. Itemsets Lift
 
 ![image](https://github.com/mytrannn22/Market-basket-analysis-Bread-Basket/assets/140190425/1852c65e-227e-4dc2-a8f5-d4a000ee7052)
 
@@ -131,8 +127,7 @@ The project will follow these steps:
 
 ### Market Basket Analysis
 
-- There are 15 association rules found with min_support=0.01 and min_lift=1.2.
-- Coffee has very high support, it appears in 47.8% of total orders. 
+- There are 15 association rules found with min_support=0.01 and min_lift=1.2. 
 - Among 15 association rules above, coffee appears in 10/15 rules (67.7%). Although bread is the second most sold items (support=32.7%), it is not strongly associated with any other items. 
 - When customers order toast (support=3.3%), more than 70% of them will also buy coffee. It's 1.47 times more than random. 
 - Similarly, nearly 60% of customers who buy spanish brunch will buy coffee, it happens 1.25 times more than random. 
@@ -142,8 +137,7 @@ The project will follow these steps:
 ## V. Recommendations
 
 - Consider suspending the sales of some extremely low-sales items, with only several items sold over the 2 years (e.g polenta, raw bars, olum & polenta, bacon, etc. ) to save storage costs and prevent out-of-date.
-- Allocate and reinforce shipping resources during peak hours from 9AM-2PM to ensure that we meet high demand. Offer promotions for orders placed after 6 PM.
+- Allocate and reinforce shipping resources during peak hours from 9AM-2PM to ensure that we meet high demand.
 - Offer Promotions/Freeship/Discount/Gift for orders taken on weekdays to increase sales, especially on Wednesday: e.g Happy Wednesday - Happy Combo
 - We need to consider other factors such as item costs, item profit margins, preservation, transportation, etc. to determine the most effective itemsets/ combo/ recommendations. For example, we can combine more frequent items with less frequent ones to boost overall sales: cake & juice, bread & jam, cookies & smoothies, sandwich & coke, etc.
-- Create combo of some items that have pretty high confidence levels and not-too-low support levels (as they are not significant), such as: cake & tea, sandwich & tea, pastry & coffee & toast, etc.
 - **Future Analysis**: Investigate why there are exceptional high numbers of transactions from Nov 2016 to Mar 2017, take sales amount, marketing costs and overall performance into consideration. Is it results from (a) marketing compaign(s) or any internal/external factors? How to optimize conditions that may improve overall performance?
